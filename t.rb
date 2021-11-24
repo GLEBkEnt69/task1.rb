@@ -77,12 +77,12 @@ class Station
         end
       
         def delete_carriage
-          if self.speed == 0
-            self.count -= 1
-          else
-            puts "Stop before"
+            if self.speed == 0
+              self.count -= 1
+            else
+              puts "Stop before"
+            end
           end
-        end
       
         def route=(route)
           @route = route
